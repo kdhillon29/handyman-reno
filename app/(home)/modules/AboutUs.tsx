@@ -29,11 +29,11 @@ export default function AboutUs() {
           />
         </div>
       </Container>
-      <div className=" px-3 md:px-12 grid grid-cols-2 md:grid-cols-4 justify-center gap-4 md:gap-6 mt-2">
+      <div className=" px-3 md:px-12 grid grid-cols-2 md:grid-cols-4 justify-center gap-4 md:gap-3 mt-2">
         {data.map((item) => (
-          <div key={item.title} className="text-center p-3">
+          <div key={item.title} className="text-center p-5">
             <h3 className="mb-2 text-primary">{item.title}</h3>
-            <p className="text-sm  text-zinc-500 font-semibold">
+            <p className="text-xs md:text-sm uppercase  text-zinc-500 font-semibold">
               {item.description}
             </p>
           </div>
