@@ -5,7 +5,7 @@ import Image from "next/image";
 import Overlay from "@/components/Overlay";
 
 export default function HeroCarousel() {
-  const images = ["/parapija.jpg", "/hero2.jpg", "/hero3.jpg"];
+  const images = ["/hero5.jpg", "/hero4.jpg", "/hero2.jpg", "/hero3.jpg"];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -24,7 +24,7 @@ export default function HeroCarousel() {
 
   return (
     <>
-      <div className="absolute inset-0 overflow-hidden ">
+      <div className="absolute inset-0  overflow-hidden ">
         {images.map((img, index) => (
           <div
             key={index}
@@ -41,13 +41,30 @@ export default function HeroCarousel() {
               src={img}
               alt={`carousel img ${index}`}
               fill
-              className="object-cover object-center"
+              className="object-cover object-center "
               priority={index === currentImageIndex}
             />
           </div>
         ))}
       </div>
       <Overlay />
+
+      <div className="absolute right-4 bottom-4 z-50 ">
+        <div className="flex gap-2">
+          {images.map((img, index) => (
+            <button
+              key={img}
+              onClick={() => handleImageChange(index)}
+              className={`w-6 h-2 transition-all duration-300 shadow
+             ${
+               currentImageIndex == index ? "bg-primary" : "bg-white"
+             } hover:bg-green-300`}
+            >
+              {" "}
+            </button>
+          ))}
+        </div>
+      </div>
     </>
   );
 }
