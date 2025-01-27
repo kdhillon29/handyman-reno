@@ -48,7 +48,7 @@ export default function Carrer() {
               alt="dots"
               width={200}
               height={200}
-              className="absolute left-0 bottom-0 transform translate-x-1/2 translate-y-1/2"
+              className="absolute left-0 bottom-0 transform -translate-x-1/2 translate-y-1/4"
             />
           </div>
         </div>

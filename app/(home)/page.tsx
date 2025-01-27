@@ -6,6 +6,8 @@ import Services from "@/modules/Services";
 import Projects from "@/modules/Projects";
 import Carrer from "./modules/Carrer";
 
+import ContactUs from "@/modules/ContactUs";
+
 export default function Home() {
   return (
     <div className="">
@@ -16,6 +18,7 @@ export default function Home() {
         <Services />
         <Projects />
         <Carrer />
+        <ContactUs />
       </SectionSplit>
     </div>
   );
