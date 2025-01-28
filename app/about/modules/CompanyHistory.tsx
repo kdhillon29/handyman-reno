@@ -6,9 +6,11 @@ export default function CompanyHistory() {
             <SectionName name="Company History" id="company-history" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Dolores illo fugiat esse cupiditate, suscipit quod eaque qui 
-            corporis porro perspiciatis?</p>
+            corporis porro perspiciatis. Lorem ipsum dolor sit amet consectetur, 
+            adipisicing elit. Ex unde voluptates maiores, at assumenda non expedita 
+            ut rem omnis! Sequi?</p>
             <br/>
-            <br/>
+            
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Est alias laborum soluta debitis id odio illum deleniti. 
             Et, minima illo.</p>

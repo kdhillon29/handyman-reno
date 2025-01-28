@@ -10,7 +10,7 @@ export default function OurVision() {
             adipisicing elit.Odit quam modi voluptatum, laborum beatae cum nobis
              aut saepe in quaerat!</p>
             <br/>
-            <br/>
+            
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Est alias laborum soluta debitis id odio illum deleniti. 
             Et, minima illo.</p>

@@ -5,10 +5,10 @@ import { BsFacebook, BsInstagram } from "react-icons/bs"
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-900 text-white py-6 md:py-12
+    <footer className="bg-neutral-800 text-white py-6 md:py-12
      border-t-1 border-neutral-700">
     <Container>
-        <div className="flex flex-col md:flex-row  px-6 justify-between items-center md:items-end gap-3">
+        <div className="flex flex-col md:flex-row  px-6 justify-between items-center  gap-3 ">
             
             <Logo/>
             <p className="text-xs md:text-sm text-neutral-400 font-semibold ">

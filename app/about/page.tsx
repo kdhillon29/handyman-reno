@@ -10,12 +10,12 @@ import CoreValues from '../(home)/modules/CoreValues';
 
 export default function About() {
   return (
-    <div>
+    <>
       <Banner />
       <SectionSplit>
-        <Container className='px-2 md:px-12 py-2'>
-          <h2 className="mb-4">About Us</h2>
-          <div className="grid grid-cols-1 md:grid-cols-[2fr_1fr] gap-4 md:gap-8 relative min-h-screen">
+        <Container className='px-2 md:px-12 '>
+          <h2 className="mb-6">About Us</h2>
+          <div className="grid place-content-center grid-cols-1 md:grid-cols-[2fr_1fr] gap-4 md:gap-8 relative min-h-screen">
             <div className="space-y-4">
               <CompanyHistory />
               <Employees />
@@ -45,7 +45,7 @@ export default function About() {
         </Container>
       </SectionSplit>
       <CoreValues />
-    </div>
+    </>
   );
 }   
 
