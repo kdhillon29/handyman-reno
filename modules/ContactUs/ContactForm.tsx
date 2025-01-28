@@ -19,6 +19,7 @@ export default function ContactForm() {
   const [state, formAction] = useActionState(sendForm, {
     message: '',
     errors: {},
+    data:{}
   });
   useEffect(() => {
     setErrors(state.errors);
@@ -42,6 +43,8 @@ export default function ContactForm() {
               label="Name"
               id="name"
               name="name"
+              defaultValue={state.data?.name as string || ''}
+              autoComplete='name'
               type="text"
               placeholder="Your name"
               required
@@ -53,6 +56,8 @@ export default function ContactForm() {
               label="Email"
               id="email"
               name="email"
+              defaultValue={state.data?.email as string || ''}
+              autoComplete='email'
               type="email"
               placeholder="Your email"
               required
@@ -69,6 +74,8 @@ export default function ContactForm() {
               }}
               id="phone"
               name="phone"
+              defaultValue={state.data?.phone as string || ''}
+              autoComplete='phone'
               type="text"
               placeholder="Your phone"
               required
@@ -83,6 +90,7 @@ export default function ContactForm() {
                 setErrors({ ...errors, message: [] });
               }}
               name="message"
+              defaultValue={state.data?.message as string || ''}
               cols={30}
               rows={5}
               placeholder="Write your message..."

@@ -31,6 +31,12 @@ export async function sendForm(prevState: { message: string }, formData: FormDat
         phone: formFieldErrors?.phone,
         message: formFieldErrors?.message,
       },
+      data: {
+        name: formData.get('name'),
+        email: formData.get('email'),
+        phone: formData.get('phone'),
+        message: formData.get('message'),
+      },
     };
   }
   //   if (!parse.success) {
@@ -53,6 +59,6 @@ export async function sendForm(prevState: { message: string }, formData: FormDat
     return { message: 'success' };
   } catch (error) {
     console.log(error);
-    return { message: 'error', errors: {} };
+    return { message: 'error', errors: {}, data: {} };
   }
 }
