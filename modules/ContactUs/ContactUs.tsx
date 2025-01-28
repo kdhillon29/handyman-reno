@@ -6,10 +6,10 @@ export default function ContactUs() {
       <div className=" py-2 sm:px-6 md:px-8 md:py-12 mb-12">
         
           <div className="mb-6 max-w-3xl text-center sm:text-center md:mx-auto md:mb-12">
-            <h2 className=" font-bold tracking-wide text-gray-900 dark:text-white text-4xl sm:text-5xl">
+            <h2 className=" font-bold tracking-wide text-gray-900  text-4xl sm:text-5xl">
               Get in Touch
             </h2>
-            <p className="mx-auto text-xs  max-w-3xl  text-gray-600 dark:text-slate-400">
+            <p className="mx-auto text-xs  max-w-3xl  text-gray-600 ">
               Our team is ready to build your dreams
             </p>
           </div>

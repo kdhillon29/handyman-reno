@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function CoreValues() {
   return (
@@ -10,20 +10,18 @@ export default function CoreValues() {
             <div
               key={item.title}
               className={`flex flex-col items-center 
-p-8 ${secondItem && "bg-primary text-black"}`}
+             p-4 ${secondItem && 'bg-primary text-black'}`}
             >
               <div className="flex flex-col items-center gap-2 md:gap-3 p-1 md:p3 text-center">
                 <div
                   className={`w-20 h-20 border-2 rounded-full flex items-center justify-center ${
-                    secondItem ? "border-black" : "border-white"
+                    secondItem ? 'border-black' : 'border-white'
                   }`}
                 >
                   <Image src={item.img} alt="icon" width={34} height={34} />
                 </div>
                 <h3>{item.title}</h3>
-                <p className="max-w-md text-sm md:text-md">
-                  {item.description}
-                </p>
+                <p className="max-w-md text-xs md:text-sm">{item.description}</p>
               </div>
             </div>
           );
@@ -35,21 +33,21 @@ p-8 ${secondItem && "bg-primary text-black"}`}
 
 const coreValues = [
   {
-    img: "/excellence.png",
-    title: "Excellence",
+    img: '/excellence.png',
+    title: 'Excellence',
     description:
-      "We strive to deliver high-quality services with unwavering commitment,ensuring exceptional outcomes that stand the test of time",
+      'We strive to deliver high-quality services with unwavering commitment,ensuring exceptional outcomes that stand the test of time',
   },
   {
-    img: "/innovation.png",
-    title: "Innovation",
+    img: '/innovation.png',
+    title: 'Innovation',
     description:
-      "Embracing cutting-edge Technologies and creative solutions to deliver modern and sustainable outcome",
+      'Embracing cutting-edge Technologies and creative solutions to deliver modern and sustainable outcome',
   },
   {
-    img: "/customer.png",
-    title: "Customer Focus",
+    img: '/customer.png',
+    title: 'Customer Focus',
     description:
-      "Building strong relationships  through clear communication ,personalized services and relentless dedication to meet our client unique needs.",
+      'Building strong relationships  through clear communication ,personalized services and relentless dedication to meet our client unique needs.',
   },
 ];
