@@ -31,7 +31,7 @@ export default function ContactForm() {
       }, 3000);
     }
   }, [state.message]);
-  console.log('state', state);
+  
   return (
     <div className=" h-fit bg-blue-100/30 w-full md:p-3 "  id="form">
       <h2 className="mb-4 text-2xl font-bold text-black dark:text-white">Ready to Get Started?</h2>
@@ -101,7 +101,7 @@ export default function ContactForm() {
         {/* {state.message && <p className='text-black'>{`message demo:${state.message}`}</p>} */}
 
         {state.message === 'success' && !reset && (
-          <div className="flex items-center space-x-2 text-green-500  ">
+          <div className="flex items-center space-x-2 text-green-500 text-sm  ">
             <BiCheckCircle color="green" />
             <p aria-live="polite" className="text-base not-sr-only">
               {' '}
@@ -113,7 +113,7 @@ export default function ContactForm() {
         )}
         {state.message == 'server error' ||
           (state.message == ' error' && (
-            <div className="flex items-center space-x-2 text-red-500">
+            <div className="flex items-center space-x-2 text-red-500 text-sm">
               <BiErrorCircle color="red" size={24} />
               <p aria-live="polite" className="text-base not-sr-only">
                 Unable to send message.Please try again later.
