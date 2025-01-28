@@ -1,5 +1,6 @@
 import Container from "@/components/Container"
 import Logo from "@/components/Logo"
+import { BsFacebook, BsInstagram } from "react-icons/bs"
 
 
 const Footer = () => {
@@ -14,6 +15,18 @@ const Footer = () => {
                 &copy; {new Date().getFullYear()} Nbg Construction. All rights reserved.
             </p>
             <div className="flex gap-4">
+                <a
+                  href="#" target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BsInstagram />
+                </a>
+                <a
+                  href="#" target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BsFacebook />
+                </a>
                 
             </div>
         </div>
