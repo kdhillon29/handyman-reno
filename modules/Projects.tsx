@@ -5,20 +5,31 @@ import SectionName from "@/components/SectionName";
 export default function Projects() {
   // const carouselImages = ["/hero2.jpg", "/hero3.jpg", "/hero4.jpg"];
   const data=[{
-    image: "/hero2.jpg",
-    title: "Project 1",
+    image: '/projects/deck_flooring.jpg',
+    title: "Outdoor Deck Installation",
     link: "#",
 
   },
   {
-    image: "/hero3.jpg",
-    title: "Project 2",
+    image: '/projects/bathroom_renovation.jpg',
+    title: "Bathroom Renovation",
     link: "#",
 
   },
   {
-    image: "/hero4.jpg",
-    title: "Project 3",
+    image: '/projects/bathroom_vanity.jpg',
+    title: "Bathroom Vanity",
+    link: "#",
+
+  },
+  {
+    image: '/projects/garage_flooring.jpg',
+    title: "Garage Flooring",
+    link: "#",
+  },
+   {
+    image: '/projects/steel_framing.jpg',
+    title: "Steel Framing",
     link: "#",
   }
 ]

@@ -14,7 +14,8 @@ const Hero = () => {
       <div className="relative  z-10 ps-6  py-5 md:pt-12 flex flex-col  w-full bg-green-500/10 bg-blend-darken place-content-center  h-full text-white">
         <div></div>
         <div className="my-2">
-          <div className="flex gap-1">
+          <p className=" text-xl md:text-2xl font-bold text-primary/80">NBG Building Services</p>
+          <div className="flex  mt-1 gap-2">
             <div className="flex items-center gap-[.5]">
               {[...Array(5)].map((_, i) => (
                 <Image
@@ -30,14 +31,12 @@ const Hero = () => {
               120+ Successful Projects
             </p>
           </div>
-          <h2 className=" md:max-w-2xl py-2 text-4xl md:text-6xl">
+          <h2 className=" md:max-w-2xl mt-5 py-6 md:pt-8 text-2xl md:text-3xl">
             WE BUILD WITH
             <span className=" font-bold text-primary p-2">PRECISION</span>
           </h2>
-          <p className="mb-8 w-1/2 md:max-w-3xl leading-5 tracking-tight text-sm md:text-md">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
-            ratione ea consequuntur neque error aperiam assumenda quod aut,
-            expedita eligendi.
+          <p className="mb-8 w-1/2 md:max-w-3xl leading-6 tracking-wide text-md md:text-xl">
+           More than 8 year experience in trade industry.<br/>We are trusted by more than 100+ clients.
           </p>
           <Button />
         </div>

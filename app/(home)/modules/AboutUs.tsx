@@ -7,15 +7,21 @@ export default function AboutUs() {
       <Container>
         <SectionName name="About Us" />
         <div className="grid grid-cols-1 md:grid-cols-2 px-3 gap-4 md:gap-8 mb-2">
-          <strong className=" p-5 font-medium text-xl md:text-2xl border-l-4 border-l-primary">
+          <strong className=" p-5 font-medium text-xl md:text-2xl ">
             {" "}
             OUR TEAM IS READY TO BUILD YOUR DREAMS
           </strong>
-          <p className="text-clamp text-slate-700 p-2 md:p-5 leading-7 text-justify">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
-            totam, nesciunt tempora natus culpa repellendus necessitatibus
-            temporibus neque illo aliquam enim deserunt eum labore praesentium
-            voluptatum perferendis quam! Beatae, quis?
+          <p className="text-xs md:text-sm text-slate-700 p-2 md:p-5 leading-6 tracking-tight text-justify">
+           8+ years of experience in the construction industry,
+           
+           We are here to provide you full residential and commercial renovations services in reasonable price.
+           Our tasks include Building repair work, framing, cladding, maintaince work both interior and exterior,
+           tiling, regrout, wall painting and gyprock installation.<br/><br/>
+
+           we have the skills and knowledge to deliver high-quality results.
+           Customer focus is the key to success, which is why we take the time to understand your needs and
+           deliver the best results.
+
           </p>
         </div>
         <div className="relative">
@@ -29,10 +35,10 @@ export default function AboutUs() {
           />
         </div>
       </Container>
-      <div className=" px-3 md:px-12 grid grid-cols-2 md:grid-cols-4 justify-center gap-4 md:gap-3 mt-2">
+      <div className=" px-3 bg-zinc-200/50 md:px-12 grid grid-cols-2 md:grid-cols-4 justify-center gap-2 md:gap-3 mt-2">
         {data.map((item) => (
-          <div key={item.title} className="text-center p-5">
-            <h3 className="mb-2 text-primary">{item.title}</h3>
+          <div key={item.title} className="text-center p-2">
+            <h3 className=" text-primary">{item.title}</h3>
             <p className="text-xs md:text-sm uppercase  text-zinc-500 font-semibold">
               {item.description}
             </p>

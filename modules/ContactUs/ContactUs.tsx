@@ -23,7 +23,7 @@ export default function ContactUs() {
                 nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut
                 scelerisque sagittis ante, ac tincidunt sem venenatis ut.
               </p> */}
-              <ul className="mb-6 md:mt-12 md:mb-0 flex flex-col gap-6 md:gap-16">
+              <ul className="mb-6 md:mt-12 md:mb-0 flex flex-col gap-3 md:gap-12">
                 <li className="flex gap-2  ">
                   <div className="flex h-10 w-10 items-center justify-center rounded bg-primary text-gray-50">
                     <svg
@@ -43,10 +43,10 @@ export default function ContactUs() {
                     </svg>
                   </div>
                   <div className="ml-4 mb-4 ">
-                    <h3 className="mb-2 font-medium leading-6 text-gray-900 ">
+                    <h3 className="mb-2 font-medium  text-gray-900 ">
                       Our Address
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-7  text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-6  text-sm md:text-md">
                       1230 Maecenas Street Donec Road <br />
                       New York, EEUU
                     </p>
@@ -73,10 +73,10 @@ export default function ContactUs() {
                     </svg>
                   </div>
                   <div className="ml-4 mb-4">
-                    <h3 className="mb-2  font-medium leading-6 text-gray-900">
+                    <h3 className="mb-2  font-medium  text-gray-900">
                       Contact
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-7  text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-6  text-sm md:text-md">
                       Mobile: +1 (123) 456-7890 <br/> 
                       Mail: tailnext@gmail.com
                     </p>
@@ -102,10 +102,10 @@ export default function ContactUs() {
                     </svg>
                   </div>
                   <div className="ml-4 mb-4">
-                    <h3 className="mb-2 font-medium leading-6 text-gray-900 ">
+                    <h3 className="mb-2 font-medium  text-gray-900 ">
                       Working hours
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-7 text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-6 text-sm md:text-md">
                       Monday - Friday: 08:00 - 17:00<br/>
                       Saturday &amp; Sunday: 08:00 - 12:00
                     </p>
