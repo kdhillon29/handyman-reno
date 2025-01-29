@@ -7,7 +7,7 @@ import 'leaflet-defaulticon-compatibility'; // leaflet default-icon
 export default function Map() {
     const position:[number,number] = [-27.4705, 153.0260];
     return (
-      <MapContainer center={position} zoom={13} scrollWheelZoom={false} className="w-full h-72 px-4 md:px-10 mt-[-20px]">
+      <MapContainer center={position} zoom={13} scrollWheelZoom={true} className="w-full h-72 px-4 md:px-10 mt-[-20px]">
   <TileLayer
     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

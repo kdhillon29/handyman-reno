@@ -9,9 +9,9 @@ import HeroCarousel from "./Carousel";
 
 const Hero = () => {
   return (
-    <div className=" relative w-full h-screen  mt-0 overflow-hidden">
+    <div className=" relative w-full h-[80%]  mt-0 overflow-hidden ">
       <HeroCarousel />
-      <Container className="relative  z-10 flex flex-col justify-between h-full text-white">
+      <div className="relative  z-10 ps-3 py-5 flex flex-col w-full bg-green-700/10 bg-blend-darken place-content-start justify-center  h-full text-white">
         <div></div>
         <div className="my-4">
           <div className="flex gap-1">
@@ -50,7 +50,7 @@ const Hero = () => {
             <FaArrowDown size={24} />
           </Link>
         </div>
-      </Container>
+      </div>
     </div>
   );
 };

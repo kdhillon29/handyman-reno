@@ -7,6 +7,10 @@ export default function BreadCrumbs() {
 
       const pathName =  usePathname();
       const paths=pathName.split('/').filter(path=>path !=='')
+      paths.forEach((path,index) => {
+         paths[index]=path.replace(/-/g,' ')
+        
+      });
     return (
         <nav className="">
             <ol className="flex items-center space-x-1  text-sm">
