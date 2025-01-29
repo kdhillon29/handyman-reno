@@ -1,6 +1,6 @@
 import Container from "@/components/Container"
 import Logo from "@/components/Logo"
-import { BsFacebook, BsInstagram } from "react-icons/bs"
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs"
 
 
 const Footer = () => {
@@ -20,6 +20,12 @@ const Footer = () => {
                   rel="noopener noreferrer"
                 >
                   <BsInstagram />
+                </a>
+                <a
+                  href="#" target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <BsLinkedin />
                 </a>
                 <a
                   href="#" target="_blank"
