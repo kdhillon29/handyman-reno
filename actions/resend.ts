@@ -8,10 +8,10 @@ const phoneRegex = new RegExp(/^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[
 
 export async function sendForm(prevState: { message: string }, formData: FormData) {
   const schema = z.object({
-    name: z.string().min(1),
+    name: z.string().min(1, 'name is required'),
     email: z.string().email(),
     phone: z.string().min(10).regex(phoneRegex, 'Invalid phone number'),
-    message: z.string().min(1).max(500),
+    message: z.string().min(1, 'please porivide a meaningfull message').max(500),
   });
 
   const validateFormData = schema.safeParse({

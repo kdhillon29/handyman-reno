@@ -43,10 +43,10 @@ export default function ContactUs() {
                     </svg>
                   </div>
                   <div className="ml-4 mb-4 ">
-                    <h3 className="mb-2 font-medium leading-6 text-gray-900 dark:text-white">
+                    <h3 className="mb-2 font-medium leading-6 text-gray-900 ">
                       Our Address
                     </h3>
-                    <p className="text-gray-600 dark:text-slate-400 tracking-tight leading-7  text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-7  text-sm md:text-md">
                       1230 Maecenas Street Donec Road <br />
                       New York, EEUU
                     </p>
@@ -73,10 +73,10 @@ export default function ContactUs() {
                     </svg>
                   </div>
                   <div className="ml-4 mb-4">
-                    <h3 className="mb-2  font-medium leading-6 text-gray-900 dark:text-white">
+                    <h3 className="mb-2  font-medium leading-6 text-gray-900">
                       Contact
                     </h3>
-                    <p className="text-gray-600 dark:text-slate-400 tracking-tight leading-7  text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-7  text-sm md:text-md">
                       Mobile: +1 (123) 456-7890 <br/> 
                       Mail: tailnext@gmail.com
                     </p>
@@ -102,10 +102,10 @@ export default function ContactUs() {
                     </svg>
                   </div>
                   <div className="ml-4 mb-4">
-                    <h3 className="mb-2 font-medium leading-6 text-gray-900 dark:text-white">
+                    <h3 className="mb-2 font-medium leading-6 text-gray-900 ">
                       Working hours
                     </h3>
-                    <p className="text-gray-600 dark:text-slate-400 tracking-tight leading-7 text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-7 text-sm md:text-md">
                       Monday - Friday: 08:00 - 17:00<br/>
                       Saturday &amp; Sunday: 08:00 - 12:00
                     </p>

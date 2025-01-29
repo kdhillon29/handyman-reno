@@ -5,7 +5,7 @@ import ContactUs from "./ContactUs";
 
 export default function ContactUS() {
   return (
-    <section className=" text-white py-6 md:py-12">
+    <section className=" text-white py-2 ">
       <Container>
        <ContactUs />
       </Container>

@@ -56,6 +56,9 @@ export default function ContactForm() {
               label="Email"
               id="email"
               name="email"
+              onFocus={() => {
+                setErrors({ ...errors, email: [] });
+              }}
               defaultValue={state.data?.email as string || ''}
               autoComplete='email'
               type="email"
@@ -111,11 +114,11 @@ export default function ContactForm() {
         {state.message === 'success' && !reset && (
           <div className="flex items-center space-x-2 text-green-500 text-sm  ">
             <BiCheckCircle color="green" />
-            <p aria-live="polite" className="text-base not-sr-only">
+            <p aria-live="polite" className="text-base  not-sr-only">
               {' '}
-              We received your message successfully.
+              We have received your message.
               <br />
-              Our team will get back to you shortly.{' '}
+              We will get back to you shortly.{' '}
             </p>
           </div>
         )}
