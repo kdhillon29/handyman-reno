@@ -35,7 +35,7 @@ export default function ContactForm() {
   
   return (
     <div className=" h-fit bg-blue-100/30 w-full md:p-3 "  id="form">
-      <h2 className="mb-4 text-2xl font-bold text-black dark:text-white">Ready to Get Started?</h2>
+      <h2 className="mb-4 text-2xl font-bold text-black ">Ready to Get Started?</h2>
       <form id="contactForm" action={formAction} className="space-y-6 w-full">
         <div className="mb-6">
           <div className="space-y-2 mb-4">

@@ -42,11 +42,11 @@ export default function ContactUs() {
                       <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
                     </svg>
                   </div>
-                  <div className="ml-4 mb-4 ">
-                    <h3 className="mb-2 font-medium  text-gray-900 ">
+                  <div className="ml-2 mb-2 ">
+                    <h3 className=" text-sm md:text-md font-semibold  text-gray-900 ">
                       Our Address
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-6  text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-6  text-xs md:text-sm ">
                       1230 Maecenas Street Donec Road <br />
                       New York, EEUU
                     </p>
@@ -72,11 +72,11 @@ export default function ContactUs() {
                       <path d="M15 3a6 6 0 0 1 6 6"></path>
                     </svg>
                   </div>
-                  <div className="ml-4 mb-4">
-                    <h3 className="mb-2  font-medium  text-gray-900">
+                  <div className="ml-2 mb-2">
+                    <h3 className=" text-sm md:text-md font-semibold  text-gray-900">
                       Contact
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-6  text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-6  text-xs md:text-sm">
                       Mobile: +1 (123) 456-7890 <br/> 
                       Mail: tailnext@gmail.com
                     </p>
@@ -101,11 +101,11 @@ export default function ContactUs() {
                       <path d="M12 7v5l3 3"></path>
                     </svg>
                   </div>
-                  <div className="ml-4 mb-4">
-                    <h3 className="mb-2 font-medium  text-gray-900 ">
+                  <div className="ml-2 mb-2">
+                    <h3 className=" text-sm md:text-md font-semibold  text-gray-900 ">
                       Working hours
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-6 text-sm md:text-md">
+                    <p className="text-gray-600  tracking-tight leading-6 text-xs md:text-sm">
                       Monday - Friday: 08:00 - 17:00<br/>
                       Saturday &amp; Sunday: 08:00 - 12:00
                     </p>

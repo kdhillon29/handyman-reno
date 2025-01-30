@@ -7,7 +7,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 const Button = ({ children, ...rest }: ButtonProps) => {
   return (
     <button
-      className="md:px-6 px-2 py-3 bg-primary/70 text-white text-xl  rounded-xl w-1/2 md:w-auto "
+      className="md:px-6 px-2 py-2 mt-5 bg-primary/70 text-white text-xl  rounded-xl w-1/2 md:w-auto "
       {...rest}
     >
       {children ? children : <Link href="/contact/#contact">Contact Us </Link>}

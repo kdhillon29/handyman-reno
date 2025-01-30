@@ -14,7 +14,7 @@ const config: Config = {
       },
 
       fontSize: {
-        clamp: 'clamp(.7rem, 5vw, 1.2rem)',
+        clamp: 'clamp(.5rem, 5vw, 1rem)',
       },
       keyframes: {
         'fade-in': {

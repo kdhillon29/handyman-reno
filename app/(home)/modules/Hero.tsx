@@ -31,22 +31,22 @@ const Hero = () => {
               120+ Successful Projects
             </p>
           </div>
-          <h2 className=" md:max-w-2xl mt-5 py-6 md:pt-8 text-2xl md:text-3xl">
+          <h2 className=" md:max-w-2xl  py-5 md:py-12 text-xl md:text-2xl">
             WE BUILD WITH
             <span className=" font-bold text-primary p-2">PRECISION</span>
           </h2>
-          <p className="mb-8 w-1/2 md:max-w-3xl leading-6 tracking-wide text-md md:text-xl">
-           More than 8 year experience in trade industry.<br/>We are trusted by more than 100+ clients.
+          <p className="mt-2 pb-8 md:pb-12 text-neutral-300  font-semibold md:max-w-3xl leading-4 tracking-wide text-sm md:text-md">
+           8+ years of experience in a construction industry.<br/>Trusted by more than 100+ clients.
           </p>
           <Button />
         </div>
         <div>
           <Link
             href="/"
-            className="inline-block absolute bottom-0 left-5 rounded-full   p-2 bg-transparent
+            className="inline-block absolute bottom-0 left-5 rounded-full   p-1 bg-transparent
         text-blue-300 border-2 border-amber-200 shadow-lg animate-bounce"
           >
-            <FaArrowDown size={24} />
+            <FaArrowDown size={12} />
           </Link>
         </div>
       </div>
