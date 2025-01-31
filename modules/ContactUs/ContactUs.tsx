@@ -23,7 +23,7 @@ export default function ContactUs() {
                 nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut
                 scelerisque sagittis ante, ac tincidunt sem venenatis ut.
               </p> */}
-              <ul className="mb-6 md:mt-12 md:mb-0 flex flex-col gap-3 md:gap-12">
+              <ul className="mb-6 md:mt-12 md:mb-0 grid grid-cols-2 md:grid-cols-1 md:gap-12">
                 <li className="flex gap-2  ">
                   <div className="flex h-10 w-10 items-center justify-center rounded bg-primary text-gray-50">
                     <svg
@@ -46,9 +46,9 @@ export default function ContactUs() {
                     <h3 className=" text-sm md:text-md font-semibold  text-gray-900 ">
                       Our Address
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-6  text-xs md:text-sm ">
-                      1230 Maecenas Street Donec Road <br />
-                      New York, EEUU
+                    <p className="text-gray-600  tracking-tight leading-5  text-xs md:text-sm ">
+                      116 Chaucer Street  <br />
+                      Marooka,4105 Queensland
                     </p>
                     
                   </div>
@@ -76,9 +76,9 @@ export default function ContactUs() {
                     <h3 className=" text-sm md:text-md font-semibold  text-gray-900">
                       Contact
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-6  text-xs md:text-sm">
-                      Mobile: +1 (123) 456-7890 <br/> 
-                      Mail: tailnext@gmail.com
+                    <p className="text-gray-600  tracking-tight leading-5  text-xs md:text-sm">
+                      Mobile: 0406490575 <br/> 
+                      Mail: ng028@gmail.com
                     </p>
                     
                   </div>
@@ -105,9 +105,9 @@ export default function ContactUs() {
                     <h3 className=" text-sm md:text-md font-semibold  text-gray-900 ">
                       Working hours
                     </h3>
-                    <p className="text-gray-600  tracking-tight leading-6 text-xs md:text-sm">
-                      Monday - Friday: 08:00 - 17:00<br/>
-                      Saturday &amp; Sunday: 08:00 - 12:00
+                    <p className="text-gray-600  tracking-tight leading-5 text-xs md:text-sm">
+                      Monday - Friday: 09:00 - 19:00<br/>
+                      Saturday &amp; Sunday: 10:00 - 4:00
                     </p>
                    
                   </div>

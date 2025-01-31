@@ -52,15 +52,15 @@ const data = [
     description: "years of experience",
   },
   {
-    title: "50+",
+    title: "100+",
     description: "Projects Completed",
   },
   {
-    title: "100+",
+    title: "70+",
     description: "Happy Customers",
   },
   {
-    title: "70+",
+    title: "50+",
     description: "5-Star google reviews",
   },
 ];

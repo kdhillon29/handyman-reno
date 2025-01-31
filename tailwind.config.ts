@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        waves: "url('/waves.svg')",
+      },
       colors: {
         primary: '#F7CF05',
       },
