@@ -33,10 +33,21 @@ const config: Config = {
             opacity: '0',
           },
         },
+        'slide-in': {
+          '0%': {
+            opacity: '0',
+            transform: 'translateY(-20px)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        },
       },
       animation: {
         'fade-in': 'fade-in 1.5s ease-in-out',
         'fade-out': 'fade-out 2s ease-in-out',
+        'slide-in': 'slide-in 1s ease var(--slide-in-delay,0) forwards',
       },
     },
   },
