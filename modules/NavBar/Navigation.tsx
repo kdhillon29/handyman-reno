@@ -38,10 +38,10 @@ export default function NavBar() {
   return (
     <nav
       className="container mx-auto px-4 fixed top-0 left-0 right-0 flex justify-between
-              items-center h-16 bg-neutral-400 md:hidden z-50"
+              items-center h-16 bg-neutral-500 md:hidden z-50"
     >
       <Logo />
-      <a href='tel:0433698637' className='  rounded-full  p-2'> <FaPhone size={24} /> </a>
+      <a href='tel:0406490575' className='  rounded-full  p-2'> <FaPhone size={24} /> </a>
       <Link href='#contact' className='   rounded-full  p-2' > <SiMinutemailer size={24} /> </Link>
       <button onClick={toggleMenu}>
         {isOpen ? <FaTimes size={24} /> : <GiHamburgerMenu size={24} />}
