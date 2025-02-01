@@ -13,12 +13,12 @@ const Logo = () => {
             src={logo} 
             alt="NBG Construction Logo" 
             fill
-            className="object-cover   bg-gradient-to-r from-primary to-green-500/40"
+            className="object-cover   bg-neutral-900/40"
             sizes="(max-width: 42px) 100vw"
             priority
           />
         </div>
-        <div className="flex flex-col ">
+        <div className="flex flex-col max-sm:text-neutral-200 ">
           <span className="text-xs md:text-sm font-bold  tracking-wide">
             NBG
           </span>
