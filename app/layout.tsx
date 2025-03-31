@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "nbg construction",
-  description: "Nbg Construction home and building renovations in brisbane,Queensland",
+  description: "Nbg construction provides home and building maintaince and renovations services in brisbane,Queensland",
 };
 
 export default function RootLayout({

@@ -8,20 +8,20 @@ import HeroCarousel from './Carousel';
 
 const Hero = () => {
   return (
-    <div className="relative w-full h-[50vh] md:h-[90vh] mt-0 overflow-hidden">
+    <div className="relative w-full h-[70vh] md:h-[90vh] mt-0 overflow-hidden">
       <HeroCarousel />
       <div className="absolute inset-0 
-      bg-gradient-to-r from-zinc-900/80 via-teal-300/20 to-transparent" />
+      bg-gradient-to-r from-neutral-900/80 via-teal-300/20 to-transparent" />
       <div className="relative z-10 h-full container mx-auto px-4">
         <div className="mt-6 md:mt-12  pb-12 h-full flex flex-col justify-end md:justify-center ">
           {/* Company Name & Rating */}
           <div className="space-y-6 animate-slide-in opacity-0 [--slide-in-delay:100ms]">
-            <div className="flex flex-col gap-1">
-              <h1 className="text-2xl md:text-2xl font-bold text-primary/80 ">
-                NBG Construction <br />
+            <div className="flex flex-col gap-3 md:gap-6">
+              <h1 className="text-3xl md:text-5xl font-bold text-primary/80 ">
+                NBG Constructions Pty Ltd <br />
                 
               </h1>
-              <strong className="text-sm font-semibold  md:text-md text-neutral-300 tracking-wide">
+              <strong className="text-md font-semibold  md:text-lg text-neutral-300 tracking-wide">
                 A trusted name in residential and commercial building maintenance.
               </strong>
               <div className="flex items-center gap-2 text-white/90">
@@ -56,14 +56,8 @@ const Hero = () => {
               </h2>
             </div>
 
-            {/* Description */}
-            <div className="max-w-2xl animate-slide-in opacity-0 [--slide-in-delay:500ms]">
-              {/* <p className="text-white/90 text-sm md:text-base leading-relaxed tracking-wide font-medium">
-                We deliver comprehensive residential and commercial building maintenance solutions,
-                tailored to your specific needs and budget. With over 8 years of industry
-                experience, we have built a reputation for reliability and trust, serving over 100
-                satisfied clients.
-              </p> */}
+            {/* Button */}
+            <div className="animate-slide-in opacity-0 [--slide-in-delay:500ms]">
               <div className="mt-3">
                 <Button />
               </div>

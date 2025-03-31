@@ -49,7 +49,7 @@ export async function sendForm(prevState: { message: string }, formData: FormDat
     const { name, email, phone, message } = validateFormData.data;
     const { error } = await resend.emails.send({
       from: `${name}-${phone} <onboarding@resend.dev>`,
-      to: ['kdhillon469@gmail.com'],
+      to: ['nbg028@gmail.com'],
       subject: 'New Contact Form Submission',
       html: `<p>Name: ${name}</p><p>Email: ${email}</p><p>Phone: ${phone}</p><p>Message: ${message}</p>`, // (: )
     });

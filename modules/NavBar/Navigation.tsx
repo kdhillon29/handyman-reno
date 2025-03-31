@@ -48,8 +48,8 @@ export default function NavBar() {
                 <FaPhone size={18} /> 
               </a>
               <Link 
-                href='#contact' 
-                className="flex items-center justify-center w-10 h-10 rounded-full 
+                href='/#contact' 
+                className="flex items-center  justify-center w-10 h-10 scroll-smooth rounded-full 
                   bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
                 aria-label="Contact form"
               > 
