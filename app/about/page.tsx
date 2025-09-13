@@ -44,9 +44,9 @@ export default function About() {
           <h2 className="text-2xl font-semibold mb-2">Our Story</h2>
           <p>
             Founded in 2020, <strong>Nbg Renovations</strong> started as a small, family-owned
-            renovation business with a passion for design and quality. Over the years, we've grown
-            into one of Brisbane’s most trusted names in home improvement, serving homeowners across
-            Brisbane, Northside, Southside, and surrounding suburbs.
+            renovation business with a passion for design and quality. Over the years, we&apos;ve
+            grown into one of Brisbane’s most trusted names in home improvement, serving homeowners
+            across Brisbane, Northside, Southside, and surrounding suburbs.
           </p>
         </section>
 
