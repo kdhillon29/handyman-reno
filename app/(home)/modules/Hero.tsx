@@ -68,8 +68,8 @@ const Hero = () => {
 
           {/* Scroll Indicator */}
           <Link
-            href="#services"
-            className="absolute bottom-8 left-1/2 -translate-x-1/2 
+            href="#about"
+            className="absolute bottom-16 left-1/2 -translate-x-1/2 
               rounded-full p-2 bg-white/10 backdrop-blur-sm border border-white/20
               transition-all hover:bg-white/20 animate-bounce"
             aria-label="Scroll to services section"
