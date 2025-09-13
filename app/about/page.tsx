@@ -2,6 +2,7 @@
 import Banner from '@/modules/Banner';
 import Head from 'next/head';
 import CoreValues from '../(home)/modules/CoreValues';
+import Link from 'next/link';
 
 export default function About() {
   return (
@@ -19,10 +20,10 @@ export default function About() {
         <h1 className="text-4xl font-bold mb-6">About Us</h1>
 
         <section className="mb-10">
-          <h2 className="text-2xl text-gray-600 font-semibold mb-2">
+          <h2 className="text-md md:text-2xl  text-gray-600 font-semibold mb-2">
             Brisbane&apos;s Trusted Home Renovation Specialists
           </h2>
-          <p className="text-gray-600 mt-6">
+          <p className="text-gray-600 mt-6 text-sm md:text-base">
             At <strong>Nbg Renovations</strong>, we turn your renovation dreams into reality. Based
             in Brisbane, Queensland, we specialise in full-service <strong>home renovations</strong>
             , <strong>kitchen remodels</strong>, <strong>bathroom renovations</strong>, and outdoor
@@ -32,8 +33,8 @@ export default function About() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold mb-2">Our Vision</h2>
-          <p>
+          <h2 className="text-md md:text-2xl font-semibold mb-2">Our Vision</h2>
+          <p className="text-gray-600 mt-6 text-sm md:text-base">
             Our vision is to be most reliable and innovative home renovation company. We aim to
             enhance the lifestyle and property value of every client we serve, by delivering smart
             design, high-quality builds, and stress-free experiences.
@@ -41,8 +42,8 @@ export default function About() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold mb-2">Our Story</h2>
-          <p>
+          <h2 className="text-md md:text-2xl font-semibold mb-2">Our Story</h2>
+          <p className="text-gray-600 mt-6 text-sm md:text-base">
             Founded in 2020, <strong>Nbg Renovations</strong> started as a small, family-owned
             renovation business with a passion for design and quality. Over the years, we&apos;ve
             grown into one of Brisbane’s most trusted names in home improvement, serving homeowners
@@ -51,7 +52,7 @@ export default function About() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold mb-4">Our Services</h2>
+          <h2 className="text-md md:text-2xl font-semibold mb-4">Our Services</h2>
           <ul className="list-disc list-inside space-y-2">
             <li>
               <strong>Kitchen Renovations:</strong> Modern layouts, smart storage, quality finishes
@@ -77,7 +78,7 @@ export default function About() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold mb-2">Why Choose Us?</h2>
+          <h2 className="text-md md:text-2xl font-semibold mb-2">Why Choose Us?</h2>
           <ul className="list-disc list-inside space-y-1">
             <li>✅ Licensed & insured Queensland builders (QBCC certified)</li>
             <li>✅ Transparent quotes and upfront pricing</li>
@@ -88,25 +89,25 @@ export default function About() {
         </section>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-semibold mb-2">Let’s Renovate Your Brisbane Home</h2>
-          <p>
+          <h2 className="text-md md:text-2xl font-semibold mb-2">Let’s Renovate Your Home</h2>
+          <p className="text-gray-600 mt-6 text-sm md:text-base">
             Whether you’re renovating a single room or your entire property, our Brisbane team is
             here to help. Get in touch today to book a free consultation and let’s create the home
             you’ve always wanted.
           </p>
 
-          <div className="mt-4">
+          <div className="mt-4 flex flex-col gap-2">
             <p>
               <strong>📞 Call us:</strong>{' '}
-              <a href="tel:+61YourPhone" className="text-blue-600">
+              <a href="tel:+61406490575" className="text-blue-600">
                 0406490575
               </a>
             </p>
             <p>
-              <strong>📧 Email:</strong>{' '}
-              <a href="mailto:info@yourbusiness.com" className="text-blue-600">
-                ng028@gmail.com
-              </a>
+              <strong>📧 Contact:</strong>{' '}
+              <Link href="/contact" className="text-blue-600">
+                <button className="bg-primary text-white px-4 py-2 rounded">Enquire Now</button>
+              </Link>
             </p>
             <p>
               <strong>📍 Based in:</strong> Brisbane, QLD
