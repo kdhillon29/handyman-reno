@@ -12,7 +12,7 @@ import Link from 'next/link';
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-  
+
   const toggleMenu = () => {
     setIsOpen(isOpen => !isOpen);
   };
@@ -33,29 +33,29 @@ export default function NavBar() {
   }, [isOpen]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 p-1 md:hidden z-50">
+    <nav className="fixed top-0 left-0 right-0 p-0 md:hidden z-50">
       <div className="bg-neutral-700/90 backdrop-blur-md border-b border-white/10">
         <div className="container mx-auto px-4">
           <div className="h-16 flex items-center justify-between">
             <Logo />
             <div className="flex items-center gap-4">
-              <a 
-                href='tel:0406490575' 
+              <a
+                href="tel:0406490575"
                 className="flex items-center justify-center w-10 h-10 rounded-full 
                   bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
                 aria-label="Call us"
-              > 
-                <FaPhone size={18} /> 
+              >
+                <FaPhone size={18} />
               </a>
-              <Link 
-                href='/#contact' 
+              <Link
+                href="/#contact"
                 className="flex items-center  justify-center w-10 h-10 scroll-smooth rounded-full 
                   bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
                 aria-label="Contact form"
-              > 
-                <SiMinutemailer size={18} /> 
+              >
+                <SiMinutemailer size={18} />
               </Link>
-              <button 
+              <button
                 onClick={toggleMenu}
                 className="flex items-center justify-center w-10 h-10 rounded-full 
                   bg-primary/10 text-primary hover:bg-primary/20 transition-colors"
