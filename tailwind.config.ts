@@ -48,8 +48,8 @@ const config: Config = {
         },
       },
       animation: {
-        'fade-in': 'fade-in 1.5s ease-in-out',
-        'fade-out': 'fade-out 2s ease-in-out',
+        'fade-in': 'fade-in  .8s ease-in-out',
+        'fade-out': 'fade-out .8s ease-in-out',
         'slide-in': 'slide-in 1s ease var(--slide-in-delay,0) forwards',
       },
     },

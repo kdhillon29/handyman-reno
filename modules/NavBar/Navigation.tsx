@@ -33,8 +33,8 @@ export default function NavBar() {
   }, [isOpen]);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 md:hidden z-50">
-      <div className="bg-neutral-900/95 backdrop-blur-md border-b border-white/10">
+    <nav className="fixed top-0 left-0 right-0 p-1 md:hidden z-50">
+      <div className="bg-neutral-700/90 backdrop-blur-md border-b border-white/10">
         <div className="container mx-auto px-4">
           <div className="h-16 flex items-center justify-between">
             <Logo />

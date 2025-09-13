@@ -10,18 +10,19 @@ const Hero = () => {
   return (
     <div className="relative w-full h-[70vh] md:h-[90vh] mt-0 overflow-hidden">
       <HeroCarousel />
-      <div className="absolute inset-0 
-      bg-gradient-to-r from-neutral-900/80 via-teal-300/20 to-transparent" />
+      <div
+        className="absolute inset-0 
+      bg-gradient-to-r from-neutral-900/80 via-teal-300/20 to-transparent"
+      />
       <div className="relative z-10 h-full container mx-auto px-4">
-        <div className="mt-6 md:mt-12  pb-12 h-full flex flex-col justify-end md:justify-center ">
+        <div className="mt-6 md:mt-20  pb-12 h-full flex flex-col justify-end md:justify-center ">
           {/* Company Name & Rating */}
           <div className="space-y-6 animate-slide-in opacity-0 [--slide-in-delay:100ms]">
             <div className="flex flex-col gap-3 md:gap-6">
-              <h1 className="text-3xl md:text-5xl font-bold text-primary/80 ">
-                NBG Constructions Pty Ltd <br />
-                
+              <h1 className="text-3xl md:text-6xl font-bold text-primary/80 ">
+                NBG Renovations <br />
               </h1>
-              <strong className="text-md font-semibold  md:text-lg text-neutral-300 tracking-wide">
+              <strong className="text-md font-semibold  md:text-2xl text-neutral-300 tracking-tight">
                 A trusted name in residential and commercial building maintenance.
               </strong>
               <div className="flex items-center gap-2 text-white/90">
@@ -45,14 +46,15 @@ const Hero = () => {
                 </div>
               </div>
 
-              <p className="text-sm  font-semibold text-green-500">100+ Successful Projects</p>
-              
+              <p className="text-sm md:text-lg  font-semibold text-green-500">
+                100+ Successful Projects
+              </p>
             </div>
 
             {/* Main Heading */}
             <div className="animate-slide-in opacity-0 [--slide-in-delay:300ms]">
-              <h2 className="text-2xl md:text-3xl font-bold text-white tracking-wide mb-3">
-                WE BUILD WITH  <span className="text-primary">PRECISION</span>
+              <h2 className="text-2xl md:text-4xl font-bold text-white tracking-wide mb-3">
+                WE BUILD WITH <span className="text-primary">PRECISION</span>
               </h2>
             </div>
 
@@ -63,7 +65,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-             
 
           {/* Scroll Indicator */}
           <Link
